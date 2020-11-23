@@ -446,7 +446,7 @@ class TestVisualisationLogs:
             application_template=application_template,
             commit_id='',
             spawner_application_template_options=json.dumps(
-                {'CONTAINER_NAME': 'user-defined-container', }
+                {'CONTAINER_NAME': 'user-defined-container'}
             ),
             spawner_application_instance_id=json.dumps(
                 {'task_arn': 'arn:test:vis/task-id/999'}
