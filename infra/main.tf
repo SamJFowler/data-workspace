@@ -124,6 +124,8 @@ variable superset_multiuser_db_instance_class {}
 variable superset_multiuser_container_image {}
 variable superset_internal_domain {}
 
+variable visualisation_cloudwatch_log_group {}
+
 locals {
   registry_container_name    = "jupyterhub-registry"
   registry_container_port    = "5000"
